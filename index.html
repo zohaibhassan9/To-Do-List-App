@@ -7,37 +7,26 @@
     <title>To-do List App</title>
 </head>
 <body>
-  <div class="container">
-    <h2>TODOLIST</h2>
-    <H3>Add Item</H3>
- <p>
-<input type="text" id="ned-task">
-<button>Add</button>
- </p>
- 
-
- <h3>TODO</h3>
- <ul id="incomplete-tasks">
-<li><input type="checkbox" name="fill-checkbox"><label for="">Pay Blils</label><input type="text" name="" id=""><button>Edit</button><button>delete</button></li>
-<li><input type="checkbox" name="fill-checkbox"><label for="Go Shopping">Go Shopping</label><input type="text"><button>Edit</button><button>Delete</button></li>
-
-</ul>
-
-<h3>Completed</h3>
-<ul id="completed-tasks">
-<li><input type="checkbox" checked><label for="">See the Doctor</label><input type="text" name="" id=""><button>Edit</button><button>Delete</button></li>
-
-
-</ul>
-
-
-
-
-
-
-
-
-
-  </div>  
+    <body>
+        <div class="container">
+            <h2>TODO LIST</h2>
+            <h3>Add Item</h3>
+            <p>
+                <input id="new-task" type="text"><button>Add</button>
+            </p>
+    
+            <h3>Todo</h3>
+            <ul id="incomplete-tasks">
+                <li><input type="checkbox"><label>Pay Bills</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                <li><input type="checkbox"><label>Go Shopping</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            </ul>
+    
+            <h3>Completed</h3>
+            <ul id="completed-tasks">
+                <li><input type="checkbox" checked><label>See the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            </ul>
+        </div>
+    
+    </body>  
 </body>
 </html>
