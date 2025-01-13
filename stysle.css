@@ -43,5 +43,9 @@ list-style: none;
 }
 
 li * {
-    float: left;
+float: left;
+}
+
+input, :single-button{
+outline: none;
 }
