@@ -49,3 +49,17 @@ float: left;
 input, :single-button{
 outline: none;
 }
+
+button{
+background-color: rgb(255, 255, 255);
+cursor: pointer;
+border-radius: 5px;
+padding: 3px 7px ;
+}
+
+
+button:hover{
+background-color: antiquewhite;
+border: none;
+}
+
