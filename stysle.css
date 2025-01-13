@@ -67,13 +67,12 @@ button:hover {
 
 /* Heading */
 
-h3,
-label[for='new-task'] {
+h3, input[id = "new-task"] {
 	color: #333;
 	font-weight: 700;
 	font-size: 15px;
 	border-bottom: 2px solid #333;
-	padding: 20px 0 10px;
+	padding: 10px 0 10px;
 	margin: 0;
 	text-transform: uppercase;
 }
