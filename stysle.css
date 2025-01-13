@@ -4,10 +4,44 @@
 
 *{
     box-sizing: border-box;
+
+
 }
 
 body{
 background-color: blueviolet;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: #efefef;
+color: #020202;
+}
+
+.container{
+display: block;
+background-color: beige;
+width: 450px;
+border-radius: 15px;
+border: 3px solid green;
+text-align: center;
+margin: 100px auto;
+padding: 0px 10px 40px 10px;
+
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+h3, li{ 
+clear: both;
+list-style: none;
+}
+
+li * {
+    float: left;
 }
