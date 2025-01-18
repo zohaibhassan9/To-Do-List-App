@@ -15,7 +15,7 @@ addTask.addEventListener('click', () => {
 
 const listItem = document.createElement('li');
 const taskSpan = document.createElement('span');
-taskSpan.textContent = 'textTask';
+taskSpan.textContent = textTask;
 
 
 
