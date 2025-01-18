@@ -6,7 +6,7 @@ const taskList = document.getElementById('taskList')
 
 
 addTask.addEventListener('click', () => {
-    const textTask = inputItem.value.trim()
+    const textTask = inputItem.value.trim();
     if(textTask === ''){
         alert('To add a task, you must put a value')
         return;
