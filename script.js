@@ -1,5 +1,5 @@
 const inputItem = document.getElementById('inputItem');
-const addTask = document.getElementById('addBtn');
+const addTask = document.getElementById('addTask');
 const taskList = document.getElementById('taskList')
 
 
@@ -14,14 +14,13 @@ addTask.addEventListener('click', () => {
 
 
 const listItem = document.createElement('li');
-
 const taskSpan = document.createElement('span');
+taskSpan.textContent = 'textTask';
 
-taskSpan.textContent = taskText;
 
 
 const deleteBtn = document.createElement('button');
-deleteBtn.textContent = Delete;
+deleteBtn.textContent = 'Delete';
 deleteBtn.classList.add('delete-btn');
 
 listItem.appendChild(taskSpan);
@@ -41,4 +40,7 @@ deleteBtn.addEventListener('click', ()=>{
 taskList.removeChild(listItem);
 })
 
+
+
 })
+
